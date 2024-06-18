@@ -1,6 +1,7 @@
 %!TEX Ts-program = lualatex
 %!language = zh
 \documentclass{ctexart}
+\usepackage{makeidx}
 \usepackage[v1]{subfiles}
 \usepackage{tikz-cd}
 \usepackage{caption}
@@ -45,6 +46,9 @@
     \node[scale=0.75] at (2.3em,0.21em){\texttt{N}};%
   \end{tikzpicture}}
 \newenvironment{solution}{\begin{proof}[\Solution]}{\end{proof}}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\def\homework#1{}
 \def\to{\rightarrow}
 \newcommand{\xor}{\vee}
 \newcommand{\AND}{\wedge}
@@ -119,6 +123,7 @@
 \author{白永乐}
 \begin{document}
 \maketitle
+\tableofcontents
 \forloop{section}{1}{\value{section}<100}{%
   \IfFileExists{section\thesection.tex}{%
     \subfile{section\thesection.tex}%

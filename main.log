@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.5)  17 JUN 2024 22:43
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.5)  18 JUN 2024 21:17
  restricted system commands enabled.
 **/home/dirichy/markov/main.tex
 (/home/dirichy/markov/main.tex
@@ -452,6 +452,9 @@ luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script latn
  with language dflt)) (/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config
 /ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
@@ -1187,111 +1190,113 @@ luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script latn
  with language dflt))
 \c@lemma=\count360
 \c@problem=\count361
-LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 120.
+\c@definition=\count362
+\c@theorem=\count363
+LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 124.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
 (Font)                  LTJY3/song/m/n --> LTJY3/FandolSong-Regular(0)/m/n on i
-nput line 120.
+nput line 124.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/song/b/n --> LTJY3/FandolSong-Regular(0)/m/n on i
-nput line 120.
+nput line 124.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/FandolSong-Regular(0)/m/n --> LTJY3/FandolSong-Re
-gular(0)/b/n on input line 120.
+gular(0)/b/n on input line 124.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 120.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 120.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 120.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 120.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 120.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 120.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 120.
-LaTeX Font Info:    Redeclaring math accent \check on input line 120.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 120.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 120.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 120.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 120.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 124.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 124.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 124.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 124.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 124.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 124.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 124.
+LaTeX Font Info:    Redeclaring math accent \check on input line 124.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 124.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 124.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 124.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 124.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 120.
+(Font)              `operators' in the math version `normal' on input line 124.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 120.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 124.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 120.
+(Font)              `operators' in the math version `bold' on input line 124.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 120.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 124.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 120.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 120.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 120.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 120.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 120.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 124.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 120.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 120.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 120.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 120.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 124.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count362
+\scratchcounter=\count364
 \scratchdimen=\dimen301
 \scratchbox=\box72
-\nofMPsegments=\count363
-\nofMParguments=\count364
+\nofMPsegments=\count365
+\nofMParguments=\count366
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count365
+\MPscratchCnt=\count367
 \MPscratchDim=\dimen302
-\MPnumerator=\count366
-\makeMPintoPDFobject=\count367
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
 \everyMPtoPDFconversion=\toks57
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1311,11 +1316,11 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package fixdif Warning: Requires `no-math' option of fontspec!
-(fixdif)                 on input line 120.
+(fixdif)                 on input line 124.
 
-LaTeX Info: Redefining \d on input line 120.
-LaTeX Info: Redefining \partial on input line 120.
-Package hyperref Info: Link coloring OFF on input line 120.
+LaTeX Info: Redefining \d on input line 124.
+LaTeX Info: Redefining \partial on input line 124.
+Package hyperref Info: Link coloring OFF on input line 124.
 (./main.out) (./main.out)
 \@outlinefile=\write5
 
@@ -1355,7 +1360,7 @@ Package hyperref Info: Link coloring OFF on input line 120.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count368
+\c@lstlisting=\count370
 (load cache: extra_lmroman17-regular.luc)
 luaotfload | aux : font no 29 (nil) does not define feature vert for script latn
  with language dflt
@@ -1373,57 +1378,160 @@ luaotfload | aux : font no 44 (nil) does not define feature vert for script latn
  with language dflt
 luaotfload | aux : font no 44 (nil) does not define feature vrt2 for script latn
  with language dflt
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 12
-2.
+6.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+luaotfload | aux : font no 58 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 58 (nil) does not define feature vrt2 for script latn
+ with language dflt(load cache: extra_lmroman12-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <15.0
+5624> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead 
+on input line 126.
+luaotfload | aux : font no 60 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script latn
+ with language dflt (./main.toc)
+\tf@toc=\write6
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main
-.aux)
+\openout6 = main.toc
+
+(./section1.tex
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <12.0
+45> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead 
+on input line 10.
+luaotfload | aux : font no 62 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script latn
+ with language dflt
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/n' in size <10.5
+3937> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead 
+on input line 11.
+luaotfload | aux : font no 64 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script latn
+ with language dflt(load cache: extra_lmroman10-italic.luc)
+luaotfload | aux : font no 66 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 66 (nil) does not define feature vrt2 for script latn
+ with language dflt(load cache: extra_lmroman7-regular.luc)(load cache: extra_lm
+roman5-regular.luc)
+luaotfload | aux : font no 78 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script latn
+ with language dflt
+luaotfload | aux : font no 79 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 79 (nil) does not define feature vrt2 for script latn
+ with language dflt
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 13.
+
+(load cache: extra_lmroman10-bolditalic.luc)
+
+LaTeX Font Warning: Font shape `LTJY3/FandolSong-Regular(0)/bx/it' undefined
+(Font)              using `LTJY3/FandolSong-Regular(0)/bx/n' instead on input l
+ine 14.
+
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/bx/it' in size <10.
+53937> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/b/n' tried instead 
+on input line 14.
+luaotfload | aux : font no 64 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script latn
+ with language dflt [1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])(load ca
+che: extra_lmromanslant10-regular.luc)
+LaTeX Font Info:    Font shape `LTJY3/FandolSong-Regular(0)/m/sl' in size <10.5
+3937> not available
+(Font)              Font shape `LTJY3/FandolSong-Regular(0)/m/it' tried instead
+ on input line 132.
+luaotfload | aux : font no 66 (nil) does not define feature vert for script latn
+ with language dflt
+luaotfload | aux : font no 66 (nil) does not define feature vrt2 for script latn
+ with language dflt
+[2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  8DCC036D931B9D1102BFC0890010F887;1049.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35249 strings out of 476435
- 100000,1977958 words of node,token memory allocated
- 870 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 142 attribute, 58 glue_spe
-c, 22 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:3,2:1654,3:29,4:95,5:48,6:9,7:283,8:1,9:126,10:7
- 56501 multiletter control sequences out of 65536+600000
- 56 fonts using 25136103 bytes
- 116i,6n,115p,561b,1122s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-regula
-r.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fandol/FandolSon
-g-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmrom
-an17-regular.otf>
-Output written on main.pdf (1 page, 11850 bytes).
+ 35411 strings out of 476435
+ 156268,1977958 words of node,token memory allocated
+ 1090 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 239 attribute, 60 glue_spe
+c, 30 attribute_list, 2 write, 10 user_defined nodes
+   avail lists: 1:8,2:36693,3:833,4:313,5:263,6:65,7:6862,8:81,9:2138,10:9,11:81
 
-PDF statistics: 44 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
+ 56611 multiletter control sequences out of 65536+600000
+ 93 fonts using 39499087 bytes
+ 116i,6n,115p,561b,1122s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regu
+lar.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-r
+egular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman1
+0-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fandol/Fa
+ndolKai-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm
+/lmroman10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm
+/lmroman12-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/fa
+ndol/FandolSong-Bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/publ
+ic/lm/lmroman12-regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/p
+ublic/fandol/FandolSong-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/op
+entype/public/lm/lmroman17-regular.otf></usr/local/texlive/2024/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on main.pdf (2 pages, 225374 bytes).
+
+PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

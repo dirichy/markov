@@ -1,0 +1,122 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{section0}% TODO: Input UNIQUE filename here
+}
+\section{基本概念和例子}% TODO: Input title of this section
+\subsection{基本概念}
+\subsubsection{随机过程的定义}
+\begin{definition}\label{def:stochestic_progress}
+  设\(I\)是非空指标集，\((\Omega,\mathcal{F},\mathbb{P})\)是概率空间。
+  若\((X_\alpha:\alpha \in I)\)是一组定义在\((\Omega,\mathcal{F},\mathbb{P})\)上的随机变量（取值为\(\mathbb{R}^d\)），则称\((X_\alpha:\alpha \in I)\)为一个\index{sui ji guo cheng@随机过程|textbf}\textbf{随机过程}。
+\end{definition}
+\begin{definition}\label{def:independent_of_stochestic_progress}
+  假设\((X_\alpha:\alpha \in I)\)和\((Y_\alpha:\alpha \in J)\)是两个随机过程。
+  若对于任何有限序列\((s_1,\cdots,s_n) \subset I,(t_1,\cdots,t_m) \subset J\)，都有\((X_{s_1},\cdots,X_{s_n}) \perp (Y_{t_1},\cdots,Y_{t_m})\)，
+  则称这两个\index{sui ji guo cheng du li@随机过程独立|textbf}\textbf{随机过程独立}。
+\end{definition}
+\subsubsection{轨道和修正}
+\begin{definition}\label{def:path}
+  设\((X_\alpha:\alpha \in I)\)为随机过程。固定\(\omega \in \Omega\)，
+  称\(t \mapsto X_{t}(\omega)\)为\(X\)的一条\index{gui dao@轨道|textbf}\textbf{轨道}。
+\end{definition}
+\begin{definition}\label{def:continous}
+  称一个随机过程是（\index{zuo lian xu@左连续|textbf}\textbf{左连续}||\index{you lian xu@右连续|textbf}\textbf{右连续}||\index{lian xu@连续|textbf}\textbf{连续}||\index{zuo ji you lian@左极右连|textbf}\textbf{左极右连}||\index{zuo lian you ji@左连右极|textbf}\textbf{左连右极}）的，若它的所有轨道都是（左连续||右连续||连续||左极右连||左连右极的）。
+\end{definition}
+\begin{definition}\label{def:same}
+  设\((X_t:t \in I)\)和\((Y_t:t \in I)\)是两个随机过程。
+  若\(\forall t \in I\)，有\(\mathbb{P}(X_t=Y_t)=1\)，则称它们互为\index{xiu zheng@修正|textbf}\textbf{修正}。
+  若\(\mathbb{P}(\forall t \in I,X_t=Y_t)=1\)，则称它们是\index{wu qu bie@无区别|textbf}\textbf{无区别}的。
+\end{definition}
+\begin{theorem}\label{the:1}
+  设\((X_t:t \geq 0)\)和\((Y_t:t \geq 0)\)是两个右连续的随机过程，而\(D\)是\((0,\infty)\)的可数稠密子集。
+  若\(\forall s \in D,\mathbb{P}(X_s=Y_s)=1\)，则有\((X_t:t \geq 0)\)和\((Y_t:t \geq 0)\)是无区别的。
+\end{theorem}
+\subsubsection{有限维分布族}
+为了简化记号，我们用\index{SI@\(S(I)\)|textbf}\(S(I)\)表示\(I\)的全体有序有限子集。
+即：
+\[
+  S(I):=\{(t_1,\cdots,t_n):n \geq 1,t_i \in I,\forall i=1,\cdots,n\}
+\]
+用\(E\)表示\(\mathbb{R}^d\)，用\(\mathcal{E}\)表示博雷尔代数。
+\begin{definition}\label{def:finite_distribution_class}
+  设\(I\)是非空指标集。若对于每个\(J \in S(I)\)，都对应一个\((E^|J|,\mathcal{E}^|J|)\)上的概率测度\(u_J\)，
+  则称\((\mu_J:I \in S(I))\)为\(E\)上的一个\index{you xian wei fen bu zu@有限维分布族|textbf}\textbf{有限维分布族}，其中每个\(\mu_J\)称为一个\index{you xian wei fen bu@有限维分布|textbf}\textbf{有限维分布}。
+  设\(X=(X_t:t \in I)\)是一个随机过程，用\(\mu_{J}^X\)表示\((X_{t_1},\cdots,X_{t_n})\)的分布。
+  称\(\mathcal{D}_{X}:=\{\mu_J^X:J \in S(I)\}\)为\(X\)的有限维分布族，称\(\mu_J^X\)为其中的一个有限维分布。
+\end{definition}
+\begin{definition}\label{def:equal}
+  给定\((E,\mathcal{E})\)上的有限维分布族\(\mathcal{D}\)，若存在随机过程\(X=(X_t:t \in I)\)使得\(\mathcal{D}_X=\mathcal{D}\)，
+  则称\(X\)为\(\mathcal{D}\)的一个\index{shi xian@实现|textbf}\textbf{实现}。
+  若两个随机过程\(X,Y\)满足\(\mathcal{D}_X=\mathcal{D}_Y\)，则称它们为\index{deng jia@等价|textbf}\textbf{等价}的。
+  两个等价的过程互称实现。
+  显然，两个互为修正的随机过程一定等价，反过来却未必。
+\end{definition}
+\subsubsection{左极右连实现}
+\begin{definition}\label{def:zuojiyoulian}
+  状态空间\(E=\mathbb{R}^d\)上的随机过程有\index{zuo ji you lian@左极右连}左极右连实现\(\iff\)它有左极右连修正。
+  证明见教材p5
+\end{definition}
+\homework{1}
+\subsection{随机游动}
+\begin{definition}\label{def:svjiyzds}
+  设\(\{\xi_n:n \geq 1\}\)是独立同分布的\(d\)维随机变量列，而\(X_0\)是与之独立的一个\(d\)维随机变量。
+  令\(X_n:=X_0+\sum_{k=1}^{n} \xi_k\)。称\((X_n:n \geq 0)\)为\(d\)维\index{sui ji you dong@随机游动|textbf}\textbf{随机游动}，并称\(\{\xi_n:n \geq 1\}\)为其\index{bu chang lie@步长列|textbf}\textbf{步长列}。
+\end{definition}
+\begin{definition}\label{def:jmdjsvjiyzds}
+  若\(X_0,\xi_1\)均取值与\(\mathbb{Z}^d\)，则该随机游动状态空间可以取为\(\mathbb{Z}^d\)。
+  特别地，若还有\(\mathbb{P}(|\xi_1|=1)=1\)，则称其为\index{jian dan sui ji you dong@简单随机游动|textbf}\textbf{简单随机游动}。
+  进一步地，若对于\(\mathbb{Z}^d\)中的任一单位向量\(v\)，均有\(\mathbb{P}(\xi_1=v)=\frac{1}{2d}\)，则称其为\index{dui cheng jian dan sui ji you dong@对称简单随机游动|textbf}\textbf{对称简单随机游动}。
+\end{definition}
+\subsubsection{轨道的无界性}
+方便起见，考虑\(\mathbb{Z}\)上的简单随机游动\(S_n\)，设其步长列为\(\xi_n:n \geq 1\)。
+设\(\mathbb{P}(\xi_n=1)=p,\mathbb{P}(\xi_n=-1)=q\)，其中\(p,q \in (0,1),p+q=1\)。
+\begin{theorem}\label{the:jihubirjwujp}
+  \((S_n:n \geq 1)\)的轨道是几乎必然无界的。即：
+  \begin{equation}
+    \mathbb{P}(\sup_{n \geq 0}|S_n|=\infty)=1.
+  \end{equation}
+  证明见教材p9
+\end{theorem}
+\subsubsection{首达时分布}
+\begin{definition}\label{def:Pi}
+  记\index{pi@\(\mathbb{P}_i\)}\(\mathbb{P}_i(\cdot)=\mathbb{P}(\cdot\mid S_0=i)\)。
+\end{definition}
+
+\begin{definition}\label{def:uzdaui}
+  定义\((S_n:n \geq 0)\)到达\(x \in \mathbb{Z}\)的\index{shou da shi@首达时|textbf}\textbf{首达时}\(\tau_x:=\inf \{n \geq 0:S_n=x\}\)。
+\end{definition}
+\begin{theorem}\label{the:122}
+  当\(p=q=\frac{1}{2}\)时，对于\(a<b,i \in [a,b],a,b,i \in \mathbb{Z}\)，有
+  \begin{equation}
+    \mathbb{P}_i(\tau_b<\tau_a)=\frac{i-a}{b-a},\mathbb{P}_i(\tau_a<\tau_b)=\frac{b-i}{b-a}
+  \end{equation}
+  当\(p \neq q\)时，有
+  \begin{equation}
+    \mathbb{P}_i(\tau_b<\tau_a)=\frac{1-(\frac{q}{p})^{i-a}}{1-(\frac{q}{p})^{b-a}},
+    \mathbb{P}_i(\tau_a<\tau_b)=\frac{(\frac{q}{p})^{i-a}-(\frac{q}{p})^{b-a}}{1-(\frac{q}{p})^{b-a}}
+  \end{equation}
+  证明见教材p10
+\end{theorem}
+\begin{theorem}\label{the:1.2.3}
+  当\(p \geq q\)，对\(a \leq i \leq b \in \mathbb{Z}\)，有
+  \begin{equation}
+    \mathbb{P}_i(\tau_a<\infty)=(\frac{q}{p})^{i-a},\mathbb{P}_i(\tau_b<\infty)=1
+  \end{equation}
+  当\(p \leq q\)，有
+  \begin{equation}
+    \mathbb{P}_i(\tau_a<\infty)=1,\mathbb{P}_i(\tau_b<\infty)=(\frac{p}{q})^{b-i}
+  \end{equation}
+  证明见教材p11
+\end{theorem}
+\homework{2}
+\subsection{布朗运动}
+
+\ifSubfilesClassLoaded{%
+  \printindex }{%
+}
+
+\end{document}
