@@ -1,0 +1,9 @@
+Hypergeometric&
+\SetCell{r=1}{c,4cm}{\(H(n,K,N)\)\\\(N\in\mathbb{N}\)\\\(K\in[0,N]\cap\mathbb{N}\)\\\(n\in[0,N]\cap\mathbb{N}\)}&
+\([\max\{0,n+K-N\},\min\{n,K\}]\cap\mathbb{N}\)&
+\(\mu(k)=\frac{\binom{K}{k}\binom{N-k}{n-k}}{\binom{N}{n}}\)&
+\(n\frac{K}{N}\)&
+\(n\frac{K}{N}\frac{N-k}{N}\frac{N-n}{N-1}\)&
+fuck&
+fuck\\
+

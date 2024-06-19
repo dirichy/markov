@@ -1,0 +1,22 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{sectiona}%
+}
+\section{Test1}%
+\begin{problem}\label{pro:1}
+  \(\{\xi_n: n \geq 1\}\) are a sequence of i.i.d. r.v. with distribution \(Exp(\alpha)\),
+  Assume \(S_n=\sum_{m=1}^{n} \xi_m\).
+  Let \(N_t=\sum_{n = 1}^{\infty} \mathbbm{1}_{S_n \leq t}, X_t = \sum_{n=1}^{\infty} \mathbbm{1}_{S_n < t}\).
+  Find the distrubution of \(N_t,X_t\). Then prove that \(N_t\) is \index{zuo ji you lian@左极右连}左极右连，随机右连续 ，
+  \(X_t\)是\index{you ji zuo lian@右极左连}右极左连，随机左连续。
+  \(N_t,X_t\) 是互为修正但不是无差别。
+\end{problem}
+\begin{problem}\label{pro:2}
+
+\end{problem}
+
+\end{document}
