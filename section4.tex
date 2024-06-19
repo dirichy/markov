@@ -88,9 +88,24 @@
   \index{g tau@\(\mathcal{G}_\tau\)|textbf}
 \end{definition}
 \begin{theorem}
-
+  设\(X\)关于流\(\mathcal{G}\)为以\(P\)为转移矩阵的马氏链，而\(\tau\)是停时。
+  则在概率空间\((\Omega \cap \{\tau<\infty\},\mathcal{F} \cap \{\tau<\infty\},\mathbb{P}(\cdot \mid \tau<\infty))\)下，
+  \((X_{\tau+n}:n \geq 0)\)为以\(P\)为转移矩阵的马氏链。
+  证明见教材p104
 \end{theorem}
-
+\subsubsection{随机游动的反射原理}
+\begin{theorem}[\index{fan she yuan li@反射原理|textbf}\textbf{反射原理}]\label{the:reflect}
+  \index{sui ji you dong de fan she yuan li@随机游动的反射原理|textbf}
+  设\(X=(X_n:n \geq 0)\)是从原点\(0\)出发的一维\index{jian dan dui chen sui ji you dong@简单对称随机游动}简单对称随机游动。
+  则\(\forall x \in \mathbb{Z}_+\)，有
+  \(\mathbb{P}\left(\max_{0 \leq k \leq n} X_k \geq x\right)=\mathbb{P}(X_n \geq x)+\mathbb{P}(X_n > x)\)。
+  证明见教材p105
+\end{theorem}
+\homework{7}
+\subsection{状态的分类}
+方便起见，记\(\mathbb{P}_i=\mathbb{P}(\cdot \mid X_0=i)\)，用\(\mathbb{E}_i\)表示对应的期望。
+\index{Ei@\(\mathbb{E}_i\)|textbf}
+\homework{8}
 \ifSubfilesClassLoaded{%
   \printindex}{%
 }
