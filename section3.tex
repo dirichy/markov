@@ -1,0 +1,112 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\ifSubfilesClassLoaded{\makeindex}{}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{section3}%
+}
+\section{更新过程及其应用}%
+\subsection{更新过程}
+\subsubsection{定义和性质}
+\begin{definition}\label{def:renew_progress}
+  设\(\{\xi_n:n \geq 1\}\)是非负独立同分布随机变量序列。设\(F\)是它们共同的的分布函数。
+  假设\(F(0)=\mathbb{P}(\xi_n=0)<1\)。则\(\mu:=\mathbb{E}(\xi_n)>0\)。
+  令\(S_n:=\sum_{k=1}^{n} \xi_k\)。
+  由大数定律可得\(\lim_{n \to \infty}\frac{S_n}{n}=\mu\)。
+  令\(N(t):=\sum_{n=1}^{\infty} \mathbbm{1}_{\{S_n \leq t\}}=\sup \{n \geq 0:S_n \leq t\}\)。
+  称\((N(t):t \geq 0)\)为\index{geng xin guo cheng@更新过程|textbf}\textbf{更新过程}。
+  称\((\xi_n:n \geq 1)\)为\index{geng xin jian ge shi jian@更新间隔时间|textbf}\textbf{更新间隔时间}。
+\end{definition}
+\begin{theorem}\label{the:nifnequifn}
+  几乎必然有\(N(\infty)=\infty\)。证明见教材p74
+\end{theorem}
+\subsubsection{更新方程}
+\begin{definition}\label{def:renew_function}
+  称\(m(t):=\mathbb{E}(N(t))\)为更新过程\((N(t):t \geq 0)\)的\index{geng xin han shu@更新函数|textbf}\textbf{更新函数}。
+  计算可得\(m(t)=\sum_{n=1}^{\infty} \mathbb{P}(N(t)\geq n)=\sum_{n=1}^{\infty} \mathbb{P}(S_n \leq t)=\sum_{n=1}^{\infty} F^{*n}(t)\)。
+\end{definition}
+\begin{theorem}\label{the:mtleifn}
+  对于\(t \geq 0\)有\(m(t)<\infty\)。证明见教材p76
+\end{theorem}
+\begin{definition}\label{def:renew_equation}
+  设\(H\)为\([0,\infty)\)上的右连续的有界变差函数，而\(F\)为\([0,\infty)\)上的概率分布函数。
+  称关于\(K\)的方程\(K(t)=H(t)+K * F(t),t \geq 0\)为\index{geng xin fang cheng@更新方程|textbf}\textbf{更新方程}。
+  更新方程的积分形式为\(K(t)=H(t)+\int_{0}^{t}K(t-x) \d F(x))\)。
+\end{definition}
+\begin{theorem}\label{the:renew_equation_solve}
+  更新方程存在唯一右连续有界变差函数解\(K\)，且该解具有表达式\(K(t)=H(t)+H * m(t)\)。
+  证明见教材p76
+\end{theorem}
+\begin{theorem}\label{the:psntleqs}
+  对于\(0 \leq s \leq t\)，有\(\mathbb{P}(S_{N(t)}\leq s)=1-F(t)+\int_{0}^{s} 1-F(t-x) \d m(x)\)。
+  证明见教材p77
+\end{theorem}
+\begin{theorem}[瓦尔德恒等式]\label{the:waerdf_equarion}
+  \index{wa er de heng deng shi@瓦尔德恒等式|textbf}
+  设\(\{\xi_n:n \geq 1\}\)为独立同分布的随机变量序列，\(\mathcal{F}_n\)为其自然\(\sigma\)-代数流。
+  设\(\mathbb{E}(\xi_1)\)存在。
+  设\(\tau\)为一个停时。则有\(\mathbb{E}(\sum_{k=1}^{\tau} \xi_k)=\mathbb{E}(\tau)\mathbb{E}(\xi_1)\)。
+\end{theorem}
+\begin{theorem}\label{the:3.1.8}
+  对于\(t,x>0\)，有\(\mathbb{P}(W(t)>x)=1-F(t+x)+\int_{0}^t 1-F(t+x-y) \d m(y)\)，
+  其中\(W(T):=S_{N(t)+1}-t\)为\index{dai geng xin shi jian@待更新时间|textbf}\textbf{待更新时间}。
+  \index{W(t)@\(W(t)\)|textbf}证明见教材p78
+\end{theorem}
+\homework{12}
+\subsection{长程极限行为}
+\subsubsection{基本更新定理}
+\begin{theorem}\label{the:nt/t}
+  几乎必然的有\(\lim_{t \to \infty}\frac{N(t)}{t}=\frac{1}{\mu}\)。
+  证明见教材p80
+\end{theorem}
+\begin{theorem}[基本更新定理]\label{the:fun_renew_thm}\index{ji ben geng xin ding li@基本更新定理|textbf}
+  有\(\lim_{t \to \infty}\frac{m(t)}{t}=\frac{1}{\mu}\)。证明见教材p81
+\end{theorem}
+\subsubsection{中心极限定理}
+\begin{theorem}[\index{zhong xin ji xian ding li@中心极限定理|textbf}中心极限定理]\label{the:center_limit_thm}
+  假设\(\mathbb{D}(\xi_1)<\infty\)，记\(\mu=\mathbb{E}(\xi_1),\sigma^2=\mathbb{D}(\xi_1)\)。
+  对于\(x \in \mathbb{R}\)，有
+  \begin{equation}
+    \lim_{t \to \infty}\mathbb{P}\left(\frac{N(t)-\frac{t}{\mu}}{\sqrt{\frac{t \sigma^2}{\mu^3}}} \leq x\right) = \Phi(x)
+  \end{equation}
+  其中\(\Phi(x)=\frac{1}{\sqrt{2 \pi}}\int_{-\infty}^x \mathrm{e}^{\frac{-y^2}{2}} \d y\)为正态分布的分布函数。
+  证明见教材p82
+\end{theorem}
+\homework{13}
+\subsection{更新过程的应用}
+\subsubsection{随机游动的爬升时间}
+\begin{definition}\label{def:climb_time}
+  设\((\xi_n:n \geq 1)\)是独立同分布的可积随机变量序列且满足\(\mathbb{E}(\xi_1)>0\)。
+  令\((W_n:n \geq 0)\)是以\((\xi_n:n \geq 1)\)为\index{tiao fu@跳幅|see 步长列}跳幅的随机游动，其中\(W_0=0\)。
+  易知\(W_n \to +\infty\)。令\(S_0=0\)，递归地定义停时\(S_n\)，令\(S_n=\inf \{k \geq S_{n-1}:W_k > W_{S_{n-1}}\}\)。
+  称每个\(S_n\)为\((W_n)\)的\index{pa sheng shi jian@爬升时间|textbf}\textbf{爬升时间}。
+\end{definition}
+\begin{theorem}\label{the:3.3.1}
+  对于\(n \geq 1\)，令\(\eta_n=S_n-S_{n-1}\)。则\((\eta_n)\)是独立同分布的非负随机变量序列。
+  \index{pa sheng shi jian de chai@爬升时间的差}证明见教材p85
+\end{theorem}
+\begin{theorem}\label{the:3.3.2}
+  我们有\(\mathbb{P}(\forall n \geq 1,W_n>0)=\frac{1}{\mathbb{E}(S_1)}\)。
+  \index{sui ji you dong heng zheng de gai lv@随机游动恒正的概率}证明见教材p86
+\end{theorem}
+\subsubsection{更新累积过程}
+\begin{definition}\label{def:renew_accum}
+  设\(((\xi_n,\eta_n):n \geq 1)\)为独立同分布的二维随机变量序列，且\(\xi_n \geq 0\)。
+  令\(N(t)\)为以\(\xi_n\)为更新间隔时间的更新过程。
+  令\(A(t)=\sum_{n=1}^{N(t)} \eta_n\)。
+  称\((A(t):t \geq 0)\)为\index{geng xin lei ji guo cheng@更新累积过程|textbf}\textbf{更新累积过程}。
+\end{definition}
+\begin{theorem}\label{the:3.3.3}
+  设\(0<\mathbb{E}(\xi_1)<\infty,\mathbb{E}(|\eta_1|)<\infty\)。则几乎必然有
+  \(\lim_{t \to \infty}\frac{A(t)}{t}=\frac{\mathbb{E}(\eta_1)}{\mathbb{E}(\xi_1)}\)。
+  且有\(\lim_{t \to \infty}\frac{\mathbb{E}(A(t))}{t}=\frac{\mathbb{E}(\eta_1)}{\xi_1}\)。
+  \index{geng xin lei ji guo cheng de da shu ding lv@更新累积过程的大数定律}
+  证明见教材p87
+\end{theorem}
+\homework{14}
+\ifSubfilesClassLoaded{%
+  \printindex}{%
+}
+\end{document}
