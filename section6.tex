@@ -1,0 +1,21 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\ifSubfilesClassLoaded{\makeindex}{}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{section6}%
+}
+\section{分支过程及其应用}%
+\subsection{定义和基本构造}
+\subsubsection{分支过程的定义}
+\begin{definition}\label{def:brunch}
+  设\((\xi_{n,k}:n,k \in \mathbb{N}_+)\)是取值于\(\mathbb{Z}_+\)的独立同分布随机变量族，且服从概率分布\((p(j):j \in \mathbb{Z}_+)\)。
+  取定
+\end{definition}
+
+\ifSubfilesClassLoaded{%
+  \printindex}{%
+}
+\end{document}
