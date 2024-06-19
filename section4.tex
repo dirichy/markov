@@ -1,0 +1,94 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\ifSubfilesClassLoaded{\makeindex}{}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{section4}%
+}
+\section{离散时间马氏链}%
+\subsection{马氏性及其等价形式}
+\subsubsection{简单马氏性}
+\begin{definition}\label{def:adapt}
+  \(X=(X_n:n \geq 1)\)关于\(\sigma\)-代数流\((\mathcal{G}_n:n \geq 1)\)是\index{shi ying@适应|textbf}\textbf{适应}的，
+  即\(\forall n,X_n\)关于\(\mathcal{G}_n\)可测。
+  令\(\mathcal{F}_n=\sigma(X_0,X_1,\cdots,X_n)\)。
+  称\((\mathcal{F}_n:n \geq 1)\)为\((X_n:n \geq 1)\)的\index{zi ran sigma dai shu liu@自然\(\sigma\)-代数流|textbf}\textbf{自然\(\sigma\)-代数流}。
+\end{definition}
+\begin{definition}\label{def:markov_property}
+  称随机过程\(X\)关于其适应流\((\mathcal{G}_n)\)具有\index{ma shi xing@马氏性|textbf}\textbf{马氏性}或者称它是关于该流的\index{ma shi lian@马氏链|textbf}\textbf{马氏链}，
+  如果对于任意的\(n \geq 0,i,j \in E,G \in \mathcal{G}_n\)，当\(\mathbb{P}(G \cap \{X_n=i\})>0\)时有
+  \(\mathbb{P}(X_{n+1}=j \mid G \cap \{X_n=i\})=\mathbb{P}(X_{n+1}=j \mid X_n=i)\)。
+  该定义等价于\(\mathbb{P}(X_{n+1}=j \mid \mathcal{G}_n)=\mathbb{P}(X_{n+1} =j \mid X_n)\)，证明见教材p94
+\end{definition}
+\begin{theorem}\label{the:zirjlq}
+  过程\(X\)对其自然流具有马氏性的充要条件是\(\forall n \geq 0,\{i_0,\cdots,i_n=i,i\} \subset E\)，
+  当\(\mathbb{P}(X_k=i_k:0 \leq k \leq n)>0\)时有
+  \(\mathbb{P}(X_{n+1}=j \mid X_k=i_k:0 \leq k \leq n)=\mathbb{P}(X_{n+1}=j \mid X_n=i)\)。
+  证明见教材p95 \index{zi ran liu ma shi xing deng jia tiao jian@自然流马氏性等价条件}
+\end{theorem}
+\begin{theorem}\label{the:tnjmmauixk}
+  设\(X\)关于流\(\mathcal{G}_n\)为马氏链，设\(k>0\)，设\(A \in \mathcal{G}_k\)。
+  令\(\mathbb{P}_A=\mathbb{P}(\cdot \mid A)\)。
+  则\((X_{k+n}:n \geq 0)\)关于流\((\mathcal{G}_{k+n}:n \geq 0)\)在\(\mathbb{P}_A\)下有马氏性。
+  证明见教材p95 \index{tiao jian ma shi xing@条件马氏性}
+\end{theorem}
+\subsubsection{条件独立性}
+\begin{theorem}\label{the:markov_property_2}
+  过程\(X\)关于流\((\mathcal{G}_n)\)具有马氏性的充要条件是\(\forall n \geq 0,k \geq 1,\{i,j_1,j_2,\cdots,j_k\} \subset E,G \in \mathcal{G}_n\)，有
+  \(\mathbb{P}(X_{n+1}=j_1,\cdots,X_{n+k}=j_{k} \mid G \cap \{X_n=i\})=\mathbb{P}(X_{n+1}=j_1,\cdots,X_{n+k}=j_k \mid X_n=i)\)。
+  证明见教材p97
+\end{theorem}
+\begin{theorem}\label{the:tnjmdulixk}
+  记\(\mathcal{F}^{(n)}=\sigma(X_k:k \geq n)\)。则过程\(X\)关于流\((\mathcal{G}_n)\)具有马氏性的充要条件是
+  \(\forall n \geq 0,k \geq 1,i \in E,G \in \mathcal{G}_n,F \in \mathcal{F}^{(n)}\)，有
+  \(\mathbb{P}(F \mid G \cap \{X_n=i\})=\mathbb{P}(F \mid X_n=i)\)。
+  证明见教材p98。
+  在相同条件下的另一个等价条件为\(\mathbb{P}(G \cap F \mid X_n =i)=\mathbb{P}(G \mid X_n=i)\mathbb{P}(F \mid X_n=i)\)，
+  证明见教材p98。
+  从而得出另一个等价条件：在\(\mathbb{P}(\cdot \mid X_n=i)\)下\(\mathcal{G}_n\)和\(\mathcal{F}^{(n)}\)独立。
+  \index{tiao jian du li xing@条件独立性}
+\end{theorem}
+\homework{6}
+\subsection{转移矩阵}
+\subsubsection{有转移矩阵的马氏链}
+\begin{definition}\label{def:trans_matrix}
+  称\(E\)上的矩阵\(P=(p(i,j):i,j \in E)\)为一个\index{zhuan yi ju zhen@转移矩阵|textbf}\textbf{转移矩阵}，如果它有下面的性质：
+  \begin{enumerate}
+    \item \(\forall i,j \in E,p(i,j) \geq 0\)。
+    \item \(\forall i \in E,\sum_{j \in E}p(i,j)=1\)。
+  \end{enumerate}
+  记\(P^n=(p_n(i,j):i,j \in E)\)。以后不区分\(p_n(i,j)\)和\(p_{i,j}(n)\)以及\(p_{ij}(n)\)。
+\end{definition}
+\begin{definition}\label{def:markov_progress_with_trans_matrix}
+  称\(X\)为有转移矩阵\(P\)的\index{ma shi lian@马氏链}马氏链，如果\(\forall n \geq 0,i,j \in E,G \in \mathcal{G}_n\)，有：
+  \(\mathbb{P}(X_{n+1}=j \mid G \cap \{X_n=i\})=p(i,j)\)。
+  此性质称为有转移矩阵\(P\)的\index{ma shi xing@马氏性}马氏性。
+  易知它比马氏性更强。
+  令\(\mu\)为\(X_0\)的分布，称为\(X\)的\index{chu shi fen bu@初始分布|textbf}\textbf{初始分布}。
+\end{definition}
+\subsubsection{有限维分布的性质}
+\begin{theorem}\label{the:4.2.5}
+  \index{you xian wei fen bu@有限维分布}
+  \(X\)为以\(P\)为转移矩阵的马氏链的充要条件为\(\forall n \geq 0,G \in \mathcal{G}_n,\{i,j_1,\cdots,j_k\} \subset E\)，有：
+  \(\mathbb{P}(H \mid G \cap \{X_n=i\})=p(i,j_1)p(j_1,j_2)\cdots p(j_{k-1},j_k)\)，其中\(H=\{X_{n+1}=j_1,\cdots,X_{n+k}=j_k\}\)。
+  证明见教材p101
+\end{theorem}
+\begin{theorem}\label{the:4.2.7}
+  过程\(X\)相对其自然流是以\(P\)为转移矩阵，\(\mu\)为初始分布的马氏链的充要条件是
+  \(\forall n \geq 0,\{i_0,\cdots,i_n\} \subset E,\mathbb{P}(X_k=i_k:0 \leq k \leq n)=\mu(i_0)p(i_0,i_1)\cdots p(i_{n-1},i_n)\)。
+  证明见教材p102
+\end{theorem}
+\subsubsection{强马氏性}
+\begin{definition}\label{def:stopping_time}
+  设\((\mathcal{G}_n:n \geq 0)\)为离散时间流。设\(\tau\)是取值为\(\mathbb{N} \cap \{+\infty\}\)的随机变量。
+  若\(\forall n \geq 0,\{\tau \leq n\}\in \mathcal{G}_n\)，则称\(\tau\)是关于\((\mathcal{G}_n)\)的\index{ting shi@停时|textbf}\textbf{停时}。
+  记全体满足\(\forall n,A \cap \{\tau \leq n\} \in \mathcal{G}_n\)的\(A\)组成的\(\sigma\)-代数为\(\mathcal{G}_\tau\)。
+  \index{g tau@\(\mathcal{G}_\tau\)|textbf}
+\end{definition}
+
+\ifSubfilesClassLoaded{%
+  \printindex}{%
+}
+\end{document}
