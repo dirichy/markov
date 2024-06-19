@@ -1,0 +1,39 @@
+%!TEX Ts-program = lualatex
+%!language = zh
+\documentclass[main]{subfiles}
+\begin{document}
+\ifSubfilesClassLoaded{%
+  \tableofcontents}{%
+  \def\filename{sectionb}%
+}
+\section{distribution}%
+\small
+\begin{tblr}{hlines, vlines, columns = {leftsep=1pt,rightsep=1pt},colspec={c|c|c|c|c|c|c|c}}
+  name                                                         & symbol                                          & range                     & distribution                                                                                        & mean                     & variance                   & generating                    & characteristic                                                         \\
+  Bernoulli                                                    & \(B(1,p), 0 <p<1\)                              & \(\{0,1\}\)               & \(\mu(0)=1-p, \mu(1)=p\)                                                                            & \(p\)                    & \(p(1-p)\)                 & \((1-p + pz)\)                & \(1-p +p \mathrm{e}^{\mathrm{i}t}\)                                    \\
+  Binomial                                                     & \(B(n,p),0 <p<1\)                               & \(\mathbb{N} \cap [0,n]\) & \(\mu(k)=\binom{n}{k}p^k(1-p)^{n-k}\)                                                               & \(np\)                   & \(np(1-p)\)                & \((1-p + pz)^n\)              & \((1-p + p \mathrm{e}^{\mathrm{i}t})^n\)                               \\
+  Geometric                                                    & \(G(p),0<p<1\)                                  & \(\mathbb{N}^+\)          & \(\mu(k)=(1-p)^{k-1}p\)                                                                             & \(\frac{1}{p}\)          & \(\frac{1-p}{p^2}\)        & fuck                          & \(\frac{p \mathrm{e}^{\mathrm{i}t}}{1-(1-p)\mathrm{e}^{\mathrm{i}t}}\) \\
+  Hypergeometric                                               &
+  \SetCell[r=1]{c}{\(H(n,K,N)\)                                                                                                                                                                                                                                                                                                                                                                                     \\\(N\in\mathbb{N}\)\\\(K\in[0,N]\cap\mathbb{N}\)\\\(n\in[0,N]\cap\mathbb{N}\)} &
+  \SetCell[r=1]{c}{\([\max\{0,n+K-N\},\)                                                                                                                                                                                                                                                                                                                                                                            \\\(\min\{n,K\}]\cap\mathbb{N}\)  }                            &
+  \(\mu(k)=\frac{\binom{K}{k}\binom{N-k}{n-k}}{\binom{N}{n}}\) &
+  \(n\frac{K}{N}\)                                             &
+  \(n\frac{K}{N}\frac{N-k}{N}\frac{N-n}{N-1}\)                 &
+  fuck                                                         &
+  fuck                                                                                                                                                                                                                                                                                                                                                                                                              \\
+  Poisson                                                      & \(P(\lambda), \lambda >0\)                      & \(\mathbb{N}\)            & \(\mu(k)=\frac{\mathrm{e}^{-\lambda}\lambda^k}{k!}\)                                                & \(\lambda\)              & \(\lambda\)                & \(\mathrm{e}^{\lambda(z-1)}\) & \(\mathrm{e}^{\lambda(\mathrm{e}^{it}-1)}\)                            \\
+  Uniform                                                      & \(U[a,b],a<b\)                                  & \([a,b]\)                 & \SetCell{c}{\(f(x)=\frac{1}{b-a}\)                                                                                                                                                                                                                                   \\ \(F(x)=\frac{x-a}{b-a}\)}&\(\frac{a +b }{2}\)& \(\frac{(b-a)^2}{12}\)&-&\(\frac{\mathrm{e}^{\mathrm{i}tb}-\mathrm{e}^{\mathrm{i}ta}}{\mathrm{i}t(b-a)}\) \\
+  Exponential                                                  & \(Exp(\lambda), \lambda>0\)                     & \([0,\infty)\)            & \SetCell[r=1]{c}{\(f(x)=\lambda \mathrm{e}^{\lambda x}\mathbbm{1}_{\{x \geq 0\}}\)                                                                                                                                                                                   \\                                                                                                                                    \(F(x)=(1-\mathrm{e}^{\lambda x})\mathbbm{1}_{\{x \geq 0\}}\)} & \(\frac{1}{\lambda}\) & \(\frac{1}{\lambda^2}\) & -                   & \((1- \frac{\mathrm{i}t}{\lambda})^{-1}\)                              \\
+  Gamma                                                        & \(\Gamma(\alpha,\beta), \alpha, \beta >0\)      & \((0, \infty)\)           & \(f(x)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}\mathrm{e}^{-\beta x}\mathbbm{1}_{\{x >0\}}\) & \(\frac{\alpha}{\beta}\) & \(\frac{\alpha}{\beta^2}\) & -                             & \((1-\frac{\mathrm{i}t}{\beta})^{-\alpha}\)                            \\
+  Normal                                                       & \(N(\mu,\sigma^2), \mu, \sigma \in \mathbb{R}\) & \(\mathbb{R}\)            & \(f(x)=\frac{1}{\sigma \sqrt{2 \pi}}\mathrm{e}^{-\frac{(x-\mu)^2}{2\sigma^2}}\)                     & \(\mu\)                  & \(\sigma\)                 & -                             & \(\mathrm{e}^{\mu \mathrm{i}t-\frac{\sigma^2t^2}{2}}\)
+\end{tblr}
+\section{important lemma}
+\begin{lemma}[\index{Borel Cantelli@Borel-Cantelli|textbf}\textbf{Borel-Cantelli}]\label{lem:Borel-Cantelli}
+  \((\Omega,\mathcal{F},\mathbb{P})\) is a probability space. \(\{A_n: n \in \mathbb{N}\} \subset \mathcal{F}\), then
+  \begin{enumerate}
+    \item if \(\sum_{n \in \mathbb{N}}\mathbb{P}(A_n)< \infty\), then \(\mathbb{P}(\bigcup_{k=0}^{n} \bigcap_{m=n}^{\infty} A_m)=0\);
+    \item if \(\{A_n: n \in \mathbb{N}\}\) are independent, \(\sum_{n \in \mathbb{N}}\mathbb{P}(A_n)= \infty\), then \(\mathbb{P}(\bigcup_{k=0}^{n} \bigcap_{m=n}^{\infty} A_m)=1\).
+  \end{enumerate}
+\end{lemma}
+
+\end{document}

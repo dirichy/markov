@@ -1,12 +1,13 @@
 %!TEX Ts-program = lualatex
 %!language = zh
 \documentclass[main]{subfiles}
+\ifSubfilesClassLoaded{\makeindex}{}
 \begin{document}
 \ifSubfilesClassLoaded{%
   \tableofcontents}{%
-  \def\filename{section0}% TODO: Input UNIQUE filename here
+  \def\filename{section1}
 }
-\section{基本概念和例子}% TODO: Input title of this section
+\section{基本概念和例子}
 \subsection{基本概念}
 \subsubsection{随机过程的定义}
 \begin{definition}\label{def:stochestic_progress}
@@ -114,6 +115,147 @@
 \end{theorem}
 \homework{2}
 \subsection{布朗运动}
+\subsubsection{背景和定义}
+\begin{definition}\label{def:Brownian}
+  假定\(\sigma^2 >0\)，具有连续轨道的实值过程\((B_t: t \geq 0)\) 满足：
+  \begin{enumerate}
+    \item \(\forall 0 \leq s \leq t\)， \(B_t-B_s \sim N(0,\sigma^2(t-s))\)；
+    \item \(\forall 0 \leq t_0 \leq \cdots \leq t_n\)， \(B_0, B_1-B_0,\cdots,B_{t_n}-B_{t_{n-1}}\) 独立，
+  \end{enumerate}
+  称\((B_t:t \geq 0)\) 是以\(\sigma^2\)为参数的\index{bu lang yun dong@布朗运动|textbf}\textbf{布朗运动}。特别的，
+  当\(\sigma^2=1\)，\((B_t: t \geq 0)\)为\index{biao zhun bu lang yun dong@标准布朗运动|textbf}\textbf{标准布朗运动}。
+\end{definition}
+\begin{definition}\label{def:正态过程}
+  有限维分布为正态分布的随机过程称为\index{zheng tai guo cheng@正态过程|textbf}\textbf{正态过程}。
+\end{definition}
+\subsubsection{布朗运动的构造}
+\begin{theorem}\label{the:布朗运动存在}
+  布朗运动是有连续实现的。
+  证明见教材p13.
+\end{theorem}
+\subsubsection{布朗运动的性质}
+\begin{theorem}\label{the:1.3.6}
+  从原点出发的零均值高斯过程\((B_t: t \geq 0)\) 是标准布朗运动 \(\iff\) \(\forall s, t \geq 0\)，
+  \(\mathbb{E}(B_tB_s)=t \AND s\)。
+  证明p17.
+\end{theorem}
+\begin{theorem}\label{the:1.3.7}
+  布朗运动轨道几乎处处不可导。
+  证明p17-18.
+\end{theorem}
+\homework{3}
+\subsection{普瓦松过程}
+\begin{definition}\label{def:Poisson Process}
+  \((N_t: t \geq 0)\) 是非负整数不降随机过程，\(\alpha \geq 0\)满足：
+  \begin{enumerate}
+    \item \(\forall s,t \geq 0\)， \(N_{s + t}-N_s \sim P(\alpha t)\)，即：
+      \(\mathbb{P}(N_{s + t}-N_s=k)=\frac{\alpha^kt^k}{k !}\mathrm{e}^{-\alpha t}\)；
+    \item \(\forall 0 \leq t_0 < \cdots< t_n\)， \(N_0,N_{t_{1}}-N_{t_0},\cdots,N_{t_n}-N_{t_{n-1}}\)相互独立。
+  \end{enumerate}
+  称\((N_t:t \geq 0)\) 是\index{pu wa song guo cheng@普瓦松过程|textbf}\textbf{普瓦松过程}，参数为\(\alpha\)。
+\end{definition}
+\subsubsection{跳跃间隔时间}
+\((N_t: t \geq 0)\)以\(\alpha\)为参数的普瓦松过程，\(S_0=0,n \geq 1\)， \(S_n=\inf \{t \geq 0: N_t-N_0 \geq 0\}\)，\(\eta_n=S_n-S_{n-1}\)。
+\(S_n\) 是\((N_t : t \geq 0)\)第\(n\)次跳跃等待时间，\(\eta_n\)第\(n-1\)次跳跃到第\(n\)次跳跃的间隔时间。
+\begin{theorem}\label{the:1.4.1}
+  \(\{\eta_n:n \geq 1\}\) 独立同分布，服从\(Exp(\alpha)\)。
+  \(S_n, n \geq 1\)，服从\(\Gamma(1,\alpha)\)。
+  证明见P19.
+\end{theorem}
+\subsubsection{轨道重构}
+\begin{theorem}\label{the:1.4.3}
+  \(\{\eta_n:n \geq 1\}\) 独立同分布，服从\(Exp(\alpha),\gamma >0\)。
+  \(S_0=0,S_n=\sum_{k=1}^{n} \eta_k\)，则：
+  \[
+    N_t=\sum_{n=1}^{\infty} \mathbbm{1}_{S_n \leq t}=\sup\{n \geq 0: S_n \leq t\}.
+  \]
+  则随机过程\((N_t:t \geq 0)\)是以参数为\(\alpha\)的普瓦松过程。
+\end{theorem}
+\subsubsection{长时间极限行为}
+\((N_t: t \geq 0)\)以\(\alpha\)为参数的普瓦松过程。
+\begin{theorem}[\index{pu wa song guo cheng de qiang da shu ding lv@普瓦松过程的强大数定律}普瓦松过程的强大数定律]\label{the:普瓦松过程的强大数定律}
+  \(\lim_{t \to \infty} \frac{N_t}{t} \overset{\text{a.s.}}{=} \alpha\)
+  见p23.
+\end{theorem}
+\begin{theorem}[\index{pu wa song guo cheng de zhong xin ji xian ding li@普瓦松过程的中心极限定理}普瓦松过程的中心极限定理]\label{the:普瓦松过程的中心极限定理}
+  \(\lim_{t \to \infty}\mathbb{P}(\frac{N_t-\alpha t}{\sqrt{\alpha t}} \leq x) = \frac{1}{\sqrt{2\pi}}\int_{\infty}^x \mathrm{e}^{-\frac{y^2}{2}}dy\)。
+  见p23.
+\end{theorem}
+\begin{corollary}\label{cor:1.4.6}
+  \(s,x >0\)， \(\lim_{\lambda \to \infty}\mathrm{e}^{-\lambda s}\sum_{k \leq \lambda x}\frac{(\lambda s)^k}{k!}=\mathbbm{1}_{0<s<t}+\frac{1}{2}\mathbbm{1}_{\{s=x\}}\)。
+  见p24.
+\end{corollary}
+\begin{theorem}[\index{la pu la si bian huan de fan yan gong shi@拉普拉斯变换的反演公式}拉普拉斯变换的反演公式]\label{the:拉普拉斯变换的反演公式}
+  \(\xi\)是非负随机变量， \(L\)为其拉普拉斯变换，则\(\forall x >0\)，
+  \[
+    \lim_{\lambda \to \infty}\sum_{k \leq \lambda x}\frac{(-\lambda)^k}{k!} \frac{\mathrm{d}^k}{\mathrm{d} \lambda^k}L(\lambda)=\mathbb{P}(\xi <x) + \frac{1}{2} \mathbb{P}(\xi=x)
+  \]
+  见p24.
+\end{theorem}
+\subsubsection{复合普瓦松过程}
+\begin{definition}\label{def:复合普瓦松过程}
+  \(\mu\)是\(\mathbb{R}\)上概率\(\mu(\{0\})=0\)。\((N_t: t \geq 0)\)以\(\alpha \geq 0\)为参数的零初值普瓦松过程，
+  \(\{\xi_n:n \geq 1\}\)与\(N_t\)独立，具有相同分布\(\mu\)，\(X_0\)与\((N_t),\{\xi_n\}\)独立。
+  令：\(X_t=X_0 + \sum_{n=1}^{N_t}\xi_n, t \geq 0\)，
+  则\((X_t: t \geq 0)\)是以\(\alpha\)为跳跃速度，\(\mu\)为跳跃分布的\index{fu he pu wa song guo cheng@复合普瓦松过程|textbf}\textbf{复合普瓦松过程}。
+\end{definition}
+\begin{theorem}[\index{fu he pu wa song guo cheng de xing zhi@复合普瓦松过程的性质}复合普瓦松过程的性质]\label{the:复合普瓦松过程的性质}
+  \((X_t:t \geq 0)\)为如上定义的复合普瓦松过程，则\index{fu he pu wa song guo cheng de xing zhi@复合普瓦松过程的性质}复合普瓦松过程的性质如下：
+  \begin{enumerate}
+    \item \(\forall s,t \geq 0, \theta \in \mathbb{R}\)，\[
+        \mathbb{E}\mathrm{e}^{\mathrm{i}\theta(X_{s + t}-X_s)}=\exp(\alpha t \int_{\mathbb{R}}(\mathrm{e}^{\mathrm{i}\theta x}-1)\mu(dx))\] ;
+    \item \(\forall 0 \leq t_0 <\cdots<t_n, X_{t_0},X_{t_1}-X_{t_0},\cdots,X_{t_n}-X_{t_{n-1}} \) 相互独立。
+  \end{enumerate}
+\end{theorem}
+\subsection{普瓦松随机测度}
+\subsubsection{定义和存在性}
+\((E,\mathcal{E})\)为可测空间，\(\mu\)为\((E,\mathcal{E})\)上的\(\sigma\)有限测度。
+\begin{definition}\label{def:整数值随机测度}
+  \(\{X(B):B \in \mathcal{E}\}\)为取非负整数值随机过程，满足：
+  \begin{enumerate}
+    \item \(\forall B \in \mathcal{E}:\mu(B)<\infty\)，则\(\mathbb{E}(X(B))=\mu(B)\)。
+    \item \(\forall \{B_n:n \geq 1\} \in \mathcal{E}\)两两不交，
+      则\(X(\bigcup_{k=1}^{\infty} B_k)=\sum_{k=1}^{\infty} X(B_k)\)。
+  \end{enumerate}
+  称\(\{X(B):B \in \mathcal{E}\}\)为以\(\mu\)为强度的\index{zheng shu zhi sui ji ce duo@整数值随机测度|textbf}\textbf{整数值随机测度}。
+\end{definition}
+\begin{definition}\label{def:普瓦松随机测度}
+  \(\{X(B):B \in \mathcal{E}\}\)为整数值随机测度，满足：
+  \begin{enumerate}
+    \item \(\forall B \in \mathcal{E}:\mu(B)<\infty\)，则\(X(B) \sim P(\mu(B))\)，即：
+      \(\mathbb{P}(X(B)=k)=\frac{\mu(B)^k}{k!}\mathrm{e}^{-\mu(B)},k=0,\cdots,n,\cdots\)。
+    \item \(\forall \{B_n:n \geq 1\} \in \mathcal{E}\)两两不交，
+      则\(\{X( B_k):k \in \mathbb{N}^+\}\)相互独立。
+  \end{enumerate}
+  称\(\{X(B):B \in \mathcal{E}\}\)为以\(\alpha\)为强度的\index{pu wa song sui ji ce duo@普瓦松随机测度|textbf}\textbf{普瓦松随机测度}。
+\end{definition}
+\begin{theorem}[\index{pu wa song sui ji ce duo de chong yao tiao jian@普瓦松随机测度的充要条件}普瓦松随机测度的充要条件]\label{the:普瓦松随机测度的充要条件}
+  \(X\)为\((E,\mathcal{E})\)上以\(\mu\)为强度的整数值随机测度，则\(X\)为\index{pu wa song sui ji ce duo de chong yao tiao jian@普瓦松随机测度的充要条件}普瓦松随机测度的充要条件是
+  \(\forall n \in \mathbb{N}^+,\xi_k \in \mathbb{R}, B_k \in \mathcal{E},k=1,\cdots,n\)， \(B_i \cap B_j =\varnothing,i \neq j \)，当\(\mu(B_k)< \infty,k=1,\cdots,n\)，则\[
+    \mathbb{E}\exp(\mathrm{i}\sum_{k=1}^{n} \theta_kX(B_k))=\exp(\sum_{k=1}^{n} (\mathrm{e}^{\mathrm{i}\theta_k}-1)\mu(B_k))
+  \]
+  见p28.
+\end{theorem}
+\begin{theorem}[\index{pu wa song sui ji ce duo de cun zai xing@普瓦松随机测度的存在性}普瓦松随机测度的存在性]\label{the:普瓦松随机测度的存在性}
+  \(\mu\)为非零有限测度，\(\eta \sim P(\mu(E))\)，\(\{\xi_k:k \in \mathbb{N}^+\}\) i.i.d.服从\(\mu(E)^{-1}\mu\)。\(\eta,\xi_1,\cdots,\xi_n,\cdots\)相互独立。
+  令\(X=\sum_{j=1}^{\eta} \delta_{\xi_j}\),则\(X\)为以\(\mu\)为强度的普瓦松随机测度。
+  见p29.
+\end{theorem}
+\begin{theorem}\label{the:1.5.5}
+  \(\mu\)为\(\sigma\)有限测度，\(\{E_k:k \in \mathbb{N}^+\}\subset \mathcal{E},\mu(E_k)<\infty,k \in \mathbb{N}^+\)，
+  \(E=\bigcup_{k \in \mathbb{N}^+}E_k\)，\(E_i \cap E_j=\varnothing,i \neq j\)。
+  则存在\(X_k\)为\(E_k\)上的普瓦松随机测度强度为\(\mu_k:=\res{\mu}{E_k},k \in \mathbb{N}^+\)。
+  令\(X=\sum_{j=1}^{\infty} X_j\),则\(X\)为以\(\mu\)为强度的普瓦松随机测度。
+  见p29.
+\end{theorem}
+\subsubsection{积分与补偿的测度}
+\begin{theorem}[\index{pu wa song sui ji ce duo de chong yao tiao jian a@普瓦松随机测度的充要条件2}普瓦松随机测度的充要条件2]\label{the:普瓦松随机测度的充要条件2}
+  \(X\)为\((E,\mathcal{E})\)上以\(\mu\)为强度的整数值随机测度，则\(X\)为普瓦松随机测度的充要条件是
+  \(\forall f \in \mathbb{R}^{\mathbb{R}}:\mu(f)< \infty ,\)，则\[
+    \mathbb{E}\exp(\mathrm{i}X(f))=\exp(\int_{E}(\mathrm{e}^{\mathrm{i}f(x)}-1)\mu(dx))
+  \]
+  见p28.
+\end{theorem}
 
 \ifSubfilesClassLoaded{%
   \printindex }{%
