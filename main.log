@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.4)  20 JUN 2024 07:31
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.4)  20 JUN 2024 08:07
  restricted system commands enabled.
 **/Users/evawyy/markov/main.tex
 (/Users/evawyy/markov/main.tex
@@ -1292,17 +1292,22 @@ luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script dflt
 \c@definition=\count385
 \c@theorem=\count386
 \c@corollary=\count387
-LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 128.
+\@indexfile=\write5
+
+\openout5 = main.idx
+
+Writing index file main.idx
+LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 129.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
 (Font)                  LTJY3/song/m/n --> LTJY3/SongtiSCLight(0)/m/n on input 
-line 128.
+line 129.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/song/b/n --> LTJY3/SongtiSCLight(0)/m/n on input 
-line 128.
+line 129.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/SongtiSCLight(0)/m/n --> LTJY3/SongtiSCLight(0)/b
-/n on input line 128.
- (./main.aux
+/n on input line 129.
+(./main.aux
 
 LaTeX Warning: Label `section1:pro:1' multiply defined.
 
@@ -1326,89 +1331,191 @@ LaTeX Warning: Label `section1:pro:3' multiply defined.
 
 
 LaTeX Warning: Label `section1:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section1:lem:1' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:5' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section1:pro:5' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section3:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:5' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section4:pro:4' multiply defined.
+
+
+LaTeX Warning: Label `section6:pro:1' multiply defined.
+
+
+LaTeX Warning: Label `section6:pro:2' multiply defined.
+
+
+LaTeX Warning: Label `section6:pro:3' multiply defined.
+
+
+LaTeX Warning: Label `section6:pro:4' multiply defined.
 
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 128.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 128.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 128.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 128.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 128.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 128.
-LaTeX Font Info:    Redeclaring math accent \check on input line 128.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 128.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 128.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 128.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 128.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 129.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 129.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 129.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 129.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 129.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 129.
+LaTeX Font Info:    Redeclaring math accent \check on input line 129.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 129.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 129.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 129.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 129.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 128.
+(Font)              `operators' in the math version `normal' on input line 129.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 128.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 129.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 128.
+(Font)              `operators' in the math version `bold' on input line 129.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 129.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 128.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 128.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 128.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 129.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 128.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 128.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 128.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 129.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count388
@@ -1443,15 +1550,15 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 
 Package fixdif Warning: Requires `no-math' option of fontspec!
-(fixdif)                 on input line 128.
+(fixdif)                 on input line 129.
 
-LaTeX Info: Redefining \d on input line 128.
-LaTeX Info: Redefining \partial on input line 128.
-Package hyperref Info: Link coloring OFF on input line 128.
+LaTeX Info: Redefining \d on input line 129.
+LaTeX Info: Redefining \partial on input line 129.
+Package hyperref Info: Link coloring OFF on input line 129.
 (./main.out) (./main.out)
-\@outlinefile=\write5
+\@outlinefile=\write6
 
-\openout5 = main.out
+\openout6 = main.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1461,15 +1568,15 @@ Package hyperref Info: Link coloring OFF on input line 128.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(10.0pt, 594.295pt, 10.0pt)
-* v-part:(T,H,B)=(10.0pt, 774.96999pt, 10.0pt)
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=594.295pt
-* \textheight=774.96999pt
-* \oddsidemargin=-62.26999pt
-* \evensidemargin=-62.26999pt
-* \topmargin=-99.26999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1505,19 +1612,19 @@ luaotfload | aux : font no 44 (nil) does not define feature vert for script dflt
  with language dflt
 luaotfload | aux : font no 44 (nil) does not define feature vrt2 for script dflt
  with language dflt
-LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13
-0.
+2.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1529,50 +1636,53 @@ luaotfload | aux : font no 58 (nil) does not define feature vrt2 for script dflt
 LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/n' in size <15.05624>
  not available
 (Font)              Font shape `LTJY3/SongtiSCLight(0)/b/n' tried instead on in
-put line 130.
+put line 132.
 luaotfload | aux : font no 60 (nil) does not define feature vert for script dflt
  with language dflt
 luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script dflt
- with language dflt (./main.toc)
-\tf@toc=\write6
+ with language dflt (./main.toc
+LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/n' in size <10.53937>
+ not available
+(Font)              Font shape `LTJY3/SongtiSCLight(0)/b/n' tried instead on in
+put line 1.
+luaotfload | aux : font no 62 (nil) does not define feature vert for script dflt
+ with language dflt
+luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script dflt
+ with language dflt(load cache: extra_lmroman7-regular.luc)(load cache: extra_lm
+roman5-regular.luc)
+luaotfload | aux : font no 74 (nil) does not define feature vert for script dflt
+ with language dflt
+luaotfload | aux : font no 74 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : font no 75 (nil) does not define feature vert for script dflt
+ with language dflt
+luaotfload | aux : font no 75 (nil) does not define feature vrt2 for script dflt
+ with language dflt
 
-\openout6 = main.toc
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 2.
+
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write7
+
+\openout7 = main.toc
+\c@bylsec=\count395
 
 (./section1.tex
 LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/n' in size <12.045> n
 ot available
 (Font)              Font shape `LTJY3/SongtiSCLight(0)/b/n' tried instead on in
 put line 11.
-luaotfload | aux : font no 62 (nil) does not define feature vert for script dflt
+luaotfload | aux : font no 89 (nil) does not define feature vert for script dflt
  with language dflt
-luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script dflt
- with language dflt
-LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/n' in size <10.53937>
- not available
-(Font)              Font shape `LTJY3/SongtiSCLight(0)/b/n' tried instead on in
-put line 12.
-luaotfload | aux : font no 64 (nil) does not define feature vert for script dflt
- with language dflt
-luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 89 (nil) does not define feature vrt2 for script dflt
  with language dflt(load cache: extra_lmroman10-italic.luc)
-luaotfload | aux : font no 66 (nil) does not define feature vert for script dflt
+luaotfload | aux : font no 91 (nil) does not define feature vert for script dflt
  with language dflt
-luaotfload | aux : font no 66 (nil) does not define feature vrt2 for script dflt
- with language dflt(load cache: extra_lmroman7-regular.luc)(load cache: extra_lm
-roman5-regular.luc)
-luaotfload | aux : font no 78 (nil) does not define feature vert for script dflt
- with language dflt
-luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : font no 79 (nil) does not define feature vert for script dflt
- with language dflt
-luaotfload | aux : font no 79 (nil) does not define feature vrt2 for script dflt
- with language dflt
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 14.
-
-(load cache: extra_lmroman10-bolditalic.luc)
+luaotfload | aux : font no 91 (nil) does not define feature vrt2 for script dflt
+ with language dflt(load cache: extra_lmroman10-bolditalic.luc)
 LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/it' in size <10.53937
 > not available
 (Font)              Font shape `LTJY3/SongtiSCLight(0)/b/it' tried instead on i
@@ -1580,12 +1690,18 @@ nput line 15.
 luaotfload | aux : font no 93 (nil) does not define feature vert for script dflt
  with language dflt
 luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
- with language dflt (./homework/MarkovProcess1.tex [1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cac
-he: extra_stfangsong.luc)
-luaotfload | aux : font no 95 (nil) defines no feature for script latn
-luaotfload | aux : font no 95 (nil) defines no feature for script dflt
+ with language dflt(load cache: extra_lmromanslant10-regular.luc)
+LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/m/sl' in size <10.53937>
+ not available
+(Font)              Font shape `LTJY3/SongtiSCLight(0)/m/it' tried instead on i
+nput line 28.
+luaotfload | aux : font no 91 (nil) does not define feature vert for script dflt
+ with language dflt
+luaotfload | aux : font no 91 (nil) does not define feature vrt2 for script dflt
+ with language dflt [2] (./homework/MarkovProcess1.tex(load cache: extra_stfangs
+ong.luc)
+luaotfload | aux : font no 96 (nil) defines no feature for script latn
+luaotfload | aux : font no 96 (nil) defines no feature for script dflt
 
 Package fontspec Info: Could not resolve font "STFangsong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1617,22 +1733,14 @@ anjiao;"
 LaTeX Font Warning: Font shape `LTJY3/STFangsong(0)/m/it' undefined
 (Font)              using `LTJY3/STFangsong(0)/m/n' instead on input line 10.
 
-luaotfload | aux : font no 98 (nil) does not define feature vert for script dflt
+luaotfload | aux : font no 99 (nil) does not define feature vert for script dflt
  with language dflt
-luaotfload | aux : font no 98 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 99 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : font no 98 (nil) does not define feature vert for script dflt
+luaotfload | aux : font no 99 (nil) does not define feature vert for script dflt
  with language dflt
-luaotfload | aux : font no 98 (nil) does not define feature vrt2 for script dflt
- with language dflt(load cache: extra_lmromanslant10-regular.luc)
-LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/m/sl' in size <10.53937>
- not available
-(Font)              Font shape `LTJY3/SongtiSCLight(0)/m/it' tried instead on i
-nput line 90.
-luaotfload | aux : font no 66 (nil) does not define feature vert for script dflt
- with language dflt
-luaotfload | aux : font no 66 (nil) does not define feature vrt2 for script dflt
- with language dflt [2]
+luaotfload | aux : font no 99 (nil) does not define feature vrt2 for script dflt
+ with language dflt [3] [4]
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 106
 .
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bbm-macros/ubbm.fd
@@ -1642,8 +1750,19 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 LaTeX Font Warning: Font shape `U/bbm/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 106.
 
-) [3] (./homework/MarkovProcess2.tex [4]) (./homework/MarkovProcess3.tex
-[5]) [6](load cache: extra_lmroman7-italic.luc)
+
+Overfull \hbox (27.73366pt too wide) in paragraph at lines 135--141
+[]\TU/lmr/m/n/10.53937 Only need to check $\OMS/cmsy/m/n/10.53937 8\OML/cmm/m/i
+t/10.53937 t \OMS/cmsy/m/n/10.53937  \OT1/cmr/m/n/10.53937 0\OML/cmm/m/it/10.5
+3937 ; X[] [] X[]; s \OMS/cmsy/m/n/10.53937 ! \OML/cmm/m/it/10.53937 t$\TU/lmr/
+m/n/10.53937 . Take $\OML/cmm/m/it/10.53937 " > \OT1/cmr/m/n/10.53937 0$\TU/lmr
+/m/n/10.53937 , we need to prove $[][] \U/msb/m/n/10.53937 P\OT1/cmr/m/n/10.539
+37 (\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; 
+X[]\OT1/cmr/m/n/10.53937 ) \OML/cmm/m/it/10.53937 >
+ []
+
+[5]) [6] (./homework/MarkovProcess2.tex [7]) (./homework/MarkovProcess3.tex
+[8] [9]) [10](load cache: extra_lmroman7-italic.luc)
 luaotfload | aux : font no 104 (nil) does not define feature vert for script dfl
 t with language dflt
 luaotfload | aux : font no 104 (nil) does not define feature vrt2 for script dfl
@@ -1651,9 +1770,34 @@ t with language dflt
 luaotfload | aux : font no 106 (nil) does not define feature vert for script dfl
 t with language dflt
 luaotfload | aux : font no 106 (nil) does not define feature vrt2 for script dfl
-t with language dflt (./homework/MarkovProcess4.tex [7]) [8] (./homework/Markov
-Process5.tex [9] [10]
-Overfull \hbox (40.33292pt too wide) in paragraph at lines 86--90
+t with language dflt (./homework/MarkovProcess4.tex [11] [12]) [13] [14]
+(./homework/MarkovProcess5.tex [15]
+Overfull \hbox (17.86188pt too wide) detected at line 64
+[][][][][]
+ []
+
+[16]
+Overfull \hbox (27.62042pt too wide) in paragraph at lines 75--80
+[][] \OML/cmm/m/it/10.53937 a[]\U/bbm/m/n/10.95 1[]\OT1/cmr/m/n/10.53937 (\OML/
+cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 , where $\OML/c
+mm/m/it/10.53937 A[] \OMS/cmsy/m/n/10.53937 2 E\OML/cmm/m/it/10.53937 ; a[] > \
+OT1/cmr/m/n/10.53937 0\OML/cmm/m/it/10.53937 ; A[] \OMS/cmsy/m/n/10.53937 \ \OM
+L/cmm/m/it/10.53937 A[] \OT1/cmr/m/n/10.53937 = \OMS/cmsy/m/n/10.53937 ;$\TU/lm
+r/m/n/10.53937 . Then $\U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937 ([](\OMS/cmsy
+/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 X\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/1
+0.53937 g\OT1/cmr/m/n/10.53937 ))) = \U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937
+ ([][] [](\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 a[]X\OT1/cmr/m/n/10.
+53937 (\OML/cmm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 ))) =
+ []
+
+
+Overfull \hbox (47.31514pt too wide) detected at line 86
+[]\OT1/cmr/m/n/10.53937 (\OMS/cmsy/m/n/10.53937 ^^@ [][]\OT1/cmr/m/n/10.53937 (1
+ \OMS/cmsy/m/n/10.53937 ^^@ []\OT1/cmr/m/n/10.53937 (\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 a[]\U/bbm/m/n/10.95 1[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )))\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )) = []([](\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 a[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 ) \OMS/cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 )) = [](\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 )) [] []
+ []
+
+[17]
+Overfull \hbox (22.74059pt too wide) in paragraph at lines 86--90
 \TU/lmr/m/n/10.53937 we get $\U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937 ([](\OM
 S/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 a[]X\OT1/cmr/m/n/10.53937 (\OML/c
 mm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 ))) = [](\OMS/cmsy/m/n/10.53937 ^^@ [
@@ -1665,33 +1809,166 @@ mr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )))\OML/cmm/m/it
 10.53937 (1 \OMS/cmsy/m/n/10.53937 ^^@ []\OT1/cmr/m/n/10.53937 (\OMS/cmsy/m/n/1
 0.53937 ^^@\OML/cmm/m/it/10.53937 g\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.5393
 7 x\OT1/cmr/m/n/10.53937 )))\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\TU/
-lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 ) = [][] []
-[](1 \OMS/cmsy/m/n/10.53937 ^^@ []\OT1/cmr/m/n/10.53937 (\OMS/cmsy/m/n/10.53937
- ^^@\OML/cmm/m/it/10.53937 a[]\U/bbm/m/n/10.95 1[]\OT1/cmr/m/n/10.53937 (\OML/c
-mm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )))\OML/cmm/m/it/10.53937 \OT1/cmr/m/n
-/10.53937 (\TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53
-937 )$\TU/lmr/m/n/10.53937 ,
+lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 ) =
  []
 
-[11]
-Overfull \hbox (46.09644pt too wide) in paragraph at lines 148--150
-[] [] \OMS/cmsy/m/n/10.53937  [][] \OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.539
-37 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )[]\TU/lmr/m/n/10.53937 e[]\O
-ML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\TU/lmr/m/n/10.53937 d  []\OML/cmm
-/m/it/10.53937 x\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 . Let $\OML/cmm/m/
-it/10.53937  \OT1/cmr/m/n/10.53937 = 0$\TU/lmr/m/n/10.53937 , then eas-ily $\U
-/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X\OT1/cmr/m/n/
-10.53937 (\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 )[]\TU/lmr/m/n/10.53937
- e[]\OT1/cmr/m/n/10.53937 ) = (\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\
-OML/cmm/m/it/10.53937 f[]\TU/lmr/m/n/10.53937 e[] \OT1/cmr/m/n/10.53937 + \OML/
-cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 f\TU/lmr/m/n/1
-0.53937 e[]\OT1/cmr/m/n/10.53937 )[]2))\U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.539
-37 (\TU/lmr/m/n/10.53937 e[]\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 . 
+
+Overfull \hbox (39.2943pt too wide) in paragraph at lines 106--112
+\TU/lmr/m/n/10.53937 is Pos-sion ran-dom mea-sure on $\U/msb/m/n/10.53937 R[] \
+OMS/cmsy/m/n/10.53937  \U/msb/m/n/10.53937 R \OMS/cmsy/m/n/10.53937  \U/msb/m
+/n/10.53937 R[]$ \TU/lmr/m/n/10.53937 with in-ten-sity $d  []\OML/cmm/m/it/10.5
+3937 s\OT1/cmr/m/n/10.53937 (\TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 
+z\OT1/cmr/m/n/10.53937 ) \TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 u$\TU
+/lmr/m/n/10.53937 . Let $\OML/cmm/m/it/10.53937 Y[] \OT1/cmr/m/n/10.53937 = \OM
+L/cmm/m/it/10.53937 Y[] \OT1/cmr/m/n/10.53937 + [][] [][] [][] \OML/cmm/m/it/10
+.53937 zN\OT1/cmr/m/n/10.53937 (\TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.5393
+7 s; \TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 z; \TU/lmr/m/n/10.53937 d  []\OML/cmm/m/it/10.53937 u\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 ,
  []
 
-)) [12] (./section3.tex (./homework/MarkovProcess12.tex [13]) [14]
-(./homework/MarkovProcess13.tex) [15] (./homework/MarkovProcess14.tex))
-[16] (./main.aux)
+[18])) [19] (./section3.tex (./homework/MarkovProcess12.tex [20] [21])
+(./homework/MarkovProcess13.tex [22]
+Overfull \hbox (29.36807pt too wide) in paragraph at lines 46--51
+[]\TU/lmr/m/n/10.53937 Since $\OML/cmm/m/it/10.53937 N\OT1/cmr/m/n/10.53937 (\O
+ML/cmm/m/it/10.53937 n\OT1/cmr/m/n/10.53937 ) = [][] \U/bbm/m/n/10.95 1\OT1/cmr
+/m/n/10.53937 (\OML/cmm/m/it/10.53937 A[]\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10
+.53937 , we know that $\U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937 (\OML/cmm/m/i
+t/10.53937 N\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 n\OT1/cmr/m/n/10.5393
+7 )) = [][] \U/msb/m/n/10.53937 P\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 
+A[]\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 . Not-ing that $[][] [] \OT1/cm
+r/m/n/10.53937 =
+ []
+
+) [23] (./homework/MarkovProcess14.tex [24])) [25] (./section4.tex
+(./homework/MarkovProcess6.tex [26]
+Overfull \hbox (26.79161pt too wide) in paragraph at lines 34--39
+\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; []  
+; X[]\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 . Since $\OML/cmm/m/it/10.539
+37 $ \TU/lmr/m/n/10.53937 is bi-jec-tion we eas-ily get that $\OML/cmm/m/it/10
+.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]\OT1/cmr/m/n/10.53937 
+) = \OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 \OT1
+/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]\OT1/cmr/m/n/10.53937 ))$\TU/lmr/m
+/n/10.53937 , so $\OMS/cmsy/m/n/10.53937 F[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m
+/it/10.53937 \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 \OT1/cmr/m/n/10.53
+937 (\OML/cmm/m/it/10.53937 X[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; 
+[]  ; \OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]\OT1/cmr/m/n/10.53937 ))
+$\TU/lmr/m/n/10.53937 .
+ []
+
+[27]) [28] (./homework/MarkovProcess7.tex [29]
+Overfull \hbox (2.05025pt too wide) detected at line 65
+[][]
+ []
+
+[30] [31]
+Overfull \hbox (2.73668pt too wide) detected at line 143
+[][]
+ []
+
+[32]) (./homework/MarkovProcess8.tex [33]
+Overfull \hbox (35.14557pt too wide) in paragraph at lines 48--54
+[]\TU/lmr/m/n/10.53937 Only need to prove that $\OMS/cmsy/m/n/10.53937 8\OML/cm
+m/m/it/10.53937 k \OMS/cmsy/m/n/10.53937 2 \U/msb/m/n/10.53937 N\OML/cmm/m/it/1
+0.53937 ; [][] \OMS/cmsy/m/n/10.53937 j\OML/cmm/m/it/10.53937 X[]\OMS/cmsy/m/n/
+10.53937 j \OML/cmm/m/it/10.53937 > k; a:s:$\TU/lmr/m/n/10.53937 . Con-sider the
+ event $[][] \OMS/cmsy/m/n/10.53937 j\OML/cmm/m/it/10.53937 X[]\OMS/cmsy/m/n/10
+.53937 j 
+ []
+
+
+LaTeX Warning: Reference `section4:section4:equ:7' on page 34 undefined on inpu
+t line 108.
+
+
+LaTeX Warning: Reference `section4:section4:equ:7' on page 34 undefined on inpu
+t line 115.
+
+[34]) (./homework/MarkovProcess9.tex [35] [36])) [37] (./section6.tex
+(./homework/MarkovProcess10.tex [38] [39]
+Overfull \hbox (10.9107pt too wide) detected at line 139
+\U/msb/m/n/10.53937 E\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]X[] \OMS/
+cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 W[]\OT1/cmr/m/n/10.53937 ) = \U/ms
+b/m/n/10.53937 E\OT1/cmr/m/n/10.53937 ((\OML/cmm/m/it/10.53937 m[]X[] \OT1/cmr/
+m/n/10.53937 + \OML/cmm/m/it/10.53937 W\OT1/cmr/m/n/10.53937 )(\OML/cmm/m/it/10
+.53937 m[]X[] \OMS/cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 W\OT1/cmr/m/n/1
+0.53937 )) \OMS/cmsy/m/n/10.53937  [] ! \OT1/cmr/m/n/10.53937 0
+ []
+
+
+Overfull \hbox (5.86328pt too wide) in paragraph at lines 153--161
+[]\TU/lmr/m/n/10.53937 Since $[][] \OML/cmm/m/it/10.53937 p[]\OT1/cmr/m/n/10.53
+937 (\OML/cmm/m/it/10.53937 i; j\OT1/cmr/m/n/10.53937 ) = \OML/cmm/m/it/10.5393
+7 p[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 j\OT1/cmr/m/n/10.53937 )$\TU
+/lmr/m/n/10.53937 , and fix $\OML/cmm/m/it/10.53937 k \OMS/cmsy/m/n/10.53937 2 
+\U/msb/m/n/10.53937 N$\TU/lmr/m/n/10.53937 , we have $[][] \OML/cmm/m/it/10.539
+37 p[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 k; i\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 p[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 i; j\OT1/cmr/m/n/10.53937 ) = \OML/cmm/m/it/10.53937 p[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 k; j\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 ,
+ []
+
+[40]) (./homework/MarkovProcess11.tex [41] [42] [43])) [44]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(10.0pt, 594.295pt, 10.0pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=594.295pt
+* \textheight=556.47656pt
+* \oddsidemargin=-62.26999pt
+* \evensidemargin=-62.26999pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (./sectionb.tex(load cache: extra_lmroman9-regular.luc)
+luaotfload | aux : font no 108 (nil) does not define feature vert for script dfl
+t with language dflt
+luaotfload | aux : font no 108 (nil) does not define feature vrt2 for script dfl
+t with language dflt
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+(load cache: extra_lmroman9-italic.luc)
+luaotfload | aux : font no 120 (nil) does not define feature vert for script dfl
+t with language dflt
+luaotfload | aux : font no 120 (nil) does not define feature vrt2 for script dfl
+t with language dflt(load cache: extra_lmroman9-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/SongtiSCLight(0)/bx/n' in size <9.03374> 
+not available
+(Font)              Font shape `LTJY3/SongtiSCLight(0)/b/n' tried instead on in
+put line 31.
+luaotfload | aux : font no 122 (nil) does not define feature vert for script dfl
+t with language dflt
+luaotfload | aux : font no 122 (nil) does not define feature vrt2 for script dfl
+t with language dflt)
+(./main.ind [45
+
+] [46
+
+] [47
+
+]) (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1705,63 +1982,74 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 9FB8FFC3E8369AB41F4435C02D6F994E;1967
-(rerunfilecheck)             After:  66F233A7531115DB3F0365E3BD883D3C;3527.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 98F227C9C430114C737D51879FADD0CC;5245.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38106 strings out of 476447
- 305218,1977958 words of node,token memory allocated
- 4930 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 1999 attribute, 60 glue_sp
-ec, 190 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:7,2:86717,3:2187,4:1357,5:699,6:60,7:11076,8:135,9:2777,10:18,
-11:274
- 59021 multiletter control sequences out of 65536+600000
- 106 fonts using 173694815 bytes
- 116i,9n,115p,561b,1122s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman7-italic.otf
-></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.o
-tf><</Users/evawyy/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm
-10.657pk>></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-
-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmromans
-lant10-regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/
-lmroman10-regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/
-lm/lmroman10-italic.otf></System/Library/AssetsV2/com_apple_MobileAsset_Font7/54
-a2ad3dac6cac875ad675d7d273dc425010a877.asset/AssetData/Kaiti.ttc></System/Librar
-y/AssetsV2/com_apple_MobileAsset_Font7/54a2ad3dac6cac875ad675d7d273dc425010a877.
-asset/AssetData/Kaiti.ttc></usr/local/texlive/2024/texmf-dist/fonts/opentype/pub
-lic/lm/lmroman10-bold.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/pub
-lic/lm/lmroman12-bold.otf></System/Library/Fonts/Supplemental/Songti.ttc></usr/l
-ocal/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></Sy
-stem/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive/2024/texmf-dist/f
-onts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
+ 38903 strings out of 476447
+ 305205,2373549 words of node,token memory allocated
+ 10621 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 4606 attribute, 60 glue_sp
+ec, 427 attribute_list, 3 write, 10 user_defined nodes
+   avail lists: 1:7,2:64885,3:1840,4:2864,5:693,6:184,7:8134,8:135,9:4606,10:15,
+11:230
+ 59577 multiletter control sequences out of 65536+600000
+ 122 fonts using 195984551 bytes
+ 116i,16n,115p,802b,1842s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf
+></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf>
+<</Users/evawyy/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm9.6
+00pk>></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman5-regu
+lar.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman6-re
+gular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-
+regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman
+10-bolditalic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/l
+mroman7-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/
+lmroman7-regular.otf><</Users/evawyy/Library/texlive/2024/texmf-var/fonts/pk/ljf
+our/public/bbm/bbm10.657pk>></usr/local/texlive/2024/texmf-dist/fonts/opentype/p
+ublic/lm/lmmono10-italic.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/
+public/lm/lmroman10-italic.otf></System/Library/AssetsV2/com_apple_MobileAsset_F
+ont7/54a2ad3dac6cac875ad675d7d273dc425010a877.asset/AssetData/Kaiti.ttc></usr/lo
+cal/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></System
+/Library/AssetsV2/com_apple_MobileAsset_Font7/54a2ad3dac6cac875ad675d7d273dc4250
+10a877.asset/AssetData/Kaiti.ttc></usr/local/texlive/2024/texmf-dist/fonts/opent
+ype/public/lm/lmromanslant10-regular.otf></usr/local/texlive/2024/texmf-dist/fon
+ts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2024/texmf-dist/
+fonts/opentype/public/lm/lmroman10-bold.otf></System/Library/Fonts/Supplemental/
+Songti.ttc></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman1
+2-regular.otf></System/Library/Fonts/Supplemental/Songti.ttc></usr/local/texlive
+/2024/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/r
 sfs/rsfs10.pfb>
-Output written on main.pdf (16 pages, 956746 bytes).
+Output written on main.pdf (47 pages, 1257891 bytes).
 
-PDF statistics: 470 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 180 named destinations out of 1000 (max. 131072)
- 160 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1010 PDF objects out of 1200 (max. 8388607)
+ 869 compressed objects within 9 object streams
+ 321 named destinations out of 1000 (max. 131072)
+ 392 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -17,7 +17,7 @@
 \usepackage{hyperref}
 \usepackage{enumitem}%
 \usepackage{lipsum}
-\usepackage[margin=10pt]{geometry}
+\usepackage[margin=3cm]{geometry}
 \usepackage{listings}
 \usetikzlibrary{calc}
 \usepackage{fontawesome5}
@@ -33,7 +33,7 @@
     \node at (2.35em,0.3em) {M};%
   \end{tikzpicture}%
 }
-\renewcommand{\theproblem}{\Roman{problem}}
+\renewcommand{\theproblem}{\arabic{problem}}
 \newenvironment{problem}{\refstepcounter{problem}\noindent\color{blue}\Problem\theproblem}{}
 
 \newcommand\Solution{\begin{tikzpicture}[baseline]%
@@ -124,16 +124,20 @@
 }
 
 \title{Markov过程复习资料}
-\author{白永乐}
+\author{白永乐 王胤雅}
 \makeindex
 \begin{document}
+
 \maketitle
 \tableofcontents
-\forloop{section}{1}{\value{section}<100}{%
-  \IfFileExists{section\thesection.tex}{%
-    \subfile{section\thesection.tex}%
+\newcounter{bylsec}
+\forloop{bylsec}{1}{\value{bylsec}<100}{%
+  \IfFileExists{section\thebylsec.tex}{%
+    \subfile{section\thebylsec.tex}%
     \newpage%
   }{}%
 }
+\newgeometry{left=10pt,right=10pt}
+\subfile{sectionb.tex}
 \printindex
 \end{document}
